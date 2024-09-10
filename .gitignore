@@ -1,4 +1,9 @@
+**/.terraform.lock.hcl/*
+**/.terraform
 
+**/.DS_Store
+**/main/.DS_Store
+**/.DS_Store
 LICENSE
 # Local .terraform directories
 **/.terraform/*
@@ -17,6 +22,7 @@ crash.*.log
 
 # transient lock files created by terrafoirm apply
 .terraform.tfstate.lock.info
+**/.terraform.tfstate.lock.info/*
 
 # ignore overide files
 override.tf
