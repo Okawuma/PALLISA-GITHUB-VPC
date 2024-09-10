@@ -6,7 +6,7 @@ provider "aws" {
 
 # create vpc for pallisa hospital using the vpc root module.
 # reference the root vpc module
-module "pallisa-hospital-vpc" {
+module "pallisa-root-vpc" {
   source                      = "../modules/pallisa-root-vpc"
   region                      = var.region
   project_name                = var.project_name
