@@ -1,6 +1,7 @@
 **/.terraform.lock.hcl/*
 **/.terraform
-
+.terraform
+.terraform.lock.hcl
 **/.DS_Store
 **/main/.DS_Store
 **/.DS_Store
