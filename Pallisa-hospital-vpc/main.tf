@@ -21,12 +21,12 @@ module "pallisa-root-vpc" {
 # created Nat-gateway
 module "pallisa-nat-gateway" {
   source                    = "../modules/Nat-gateway"
-  public_subnet_az1_id      = module.pallisa-root-vpc.public_subnet_az1_id
-  aws_internet_gateway      = module.pallisa-root-vpc.aws_internet_gateway
-  vpc_id                    = module.pallisa-root-vpc.vpc_id
-  public_subnet_az2_id      = module.pallisa-root-vpc.public_subnet_az2_id
-  private_app_subnet_az1_id = module.pallisa-root-vpc.private_app_subnet_az1_id
-  private_db_subnet_az1_id  = module.pallisa-root-vpc.private_db_subnet_az1_id
-  private_app_subnet_az2_id = module.pallisa-root-vpc.private_app_subnet_az2_id
-  private_db_subnet_az2_id  = module.pallisa-root-vpc.private_db_subnet_az2_id
+  public_subnet_az1_id      = modules.pallisa-hospital-vpc.public_subnet_az1_id
+  aws_internet_gateway      = modules.pallisa-hospital-vpc.aws_internet_gateway
+  vpc_id                    = modules.pallisa-hospital-vpc.vpc_id
+  public_subnet_az2_id      = modules.pallisa-hospital-vpc.public_subnet_az2_id
+  private_app_subnet_az1_id = modules.pallisa-hospital-vpc.private_app_subnet_az1_id
+  private_db_subnet_az1_id  = modules.pallisa-hospital-vpc.private_db_subnet_az1_id
+  private_app_subnet_az2_id = modules.pallisa-hospital-vpc.private_app_subnet_az2_id
+  private_db_subnet_az2_id  = modules.pallisa-hospital-vpc.private_db_subnet_az2_id
 }
