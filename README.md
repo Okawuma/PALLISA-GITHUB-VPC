@@ -3,7 +3,12 @@
 ##### A Virtual Private Cloud (VPC) proposed for Pallisa General Hospital, provisioned using Terraform as an Infrastructure as code (Iac) tool in Amazon Web Services (AWS).
 
 ##### Project Abstract
-##### This project aims to build and provision a Virtual Private Cloud (VPC) for Pallisa General Hospital using Terraform on Amazon Web Services (AWS). The aim is to address the hospital's current IT infrastructure challenges, including data security risks, inefficient resource management, and scalability issues. By leveraging cloud computing and Infrastructure-as-Code (IaC) principles, the project seeks to enhance IT resilience, security, and scalability while reducing operational costs. The objectives include architecting a custom VPC, implementing it using Terraform, enhancing security and compliance with Ugandan healthcare regulations, and improving resource scalability. The project will follow a structured approach, including a literature review, requirements gathering, architecture design, Terraform implementation, and evaluation. The outcome is expected to serve as a benchmark for rural hospitals, demonstrating how cloud computing and IaC tools can transform healthcare infrastructure and improve patient care.
+##### 
+The use of automation tools to manage applications in the cloud has been on the rise, Terraform an Infrastructure as code tool is widely used for provisioning infrastructure in multiple cloud providers. For Pallisa General Hospital, Terraform will be leveraged to build a robust, secure and scalable Virtual Private Cloud (VPC) in Amazon Web Services (AWS). 
+
+The goal is to address the hospital's current IT infrastructure challenges, including poor data and information security, inefficient resource management, and scalability issues. By leveraging cloud computing and Infrastructure-as-Code (IaC) tools, the project seeks to enhance the Hospital's IT resilience, security, and scalability while reducing operational costs. The objectives include architecting a custom VPC, using HashiCorp Configuration Language (HCL), enhancing security and compliance with Ugandan healthcare regulations, and improving resource scalability. 
+
+The project will be structured in the sense that a literature review is followed, requirements gathering, architecture design, Terraform code implementation, and evaluation. The outcome is expected to serve as a benchmark for rural hospitals, demonstrating how cloud computing and IaC tools can transform healthcare infrastructure and improve patient care.
 
 #### Below is the Link to the VPC Architectural diagram 
 [https://github.com/Mozenty/vpc-tier-module-08/blob/main/vpc.drawio.png]
