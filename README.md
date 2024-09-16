@@ -28,7 +28,7 @@ stands a 3-tier VPC with NAT-gateway,Security Group and Application Load Balance
 ✋ Make sure all commits are digitally signed.
 + First, please see reference to the architecture.
 [https://github.com/Mozenty/vpc-tier-module-08/blob/main/vpc.drawio.png]
-### create the vpc main.tf file and the varaibles.tf side by side
+### create the root vpc module containing main.tf file and the varaibles.tf side by side
 ### Inside the main.tf file, create the following resources:
 #### - create the vpc.
 #### - create internet gateway and attach it to the vpc
