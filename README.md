@@ -2,7 +2,7 @@
 #### Project name: 
 ##### A Virtual Private Cloud (VPC) proposed for Pallisa General Hospital, provisioned using Terraform as an Infrastructure as code (Iac) tool in Amazon Web Services (AWS).
 
-##### Project Abstract
+#### Project Abstract
 ##### 
 The use of automation tools to manage applications in the cloud has been on the rise, Terraform an Infrastructure as code tool is widely used for provisioning infrastructure in multiple cloud providers. For Pallisa General Hospital, Terraform will be leveraged to build a robust, secure and scalable Virtual Private Cloud (VPC) in Amazon Web Services (AWS). 
 
